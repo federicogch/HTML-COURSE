@@ -1,0 +1,108 @@
+body{
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #4E598C;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-nav-stlye{
+    background-color: #4E598C;
+    color: white;
+    border-radius: 0;
+    border: 0;
+}
+
+a,a:visited,link{
+    color: white;
+    text-decoration: none;
+} 
+
+button{
+    float: right;
+    margin:auto;
+}
+
+#referencia{
+    float: left;
+}
+
+.navBarSize{
+    width: 100%;
+}
+
+#nav-list{
+    text-align: center;
+}
+
+#navbarToggleExternalContent{
+    width: 100%;
+    border: 3px solid #F9C784;
+}
+
+li{
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+
+li:hover{
+    background-color: #F9C784;
+}
+
+.noBorder{
+    border: none;
+}
+
+.navbar-header button.navbar-toggler:hover, .navbar-header .navbar-toggler-icon:hover{
+    background-color:#ffffff;
+    color: #ffffff;
+  }
+  .Title{
+    text-align: center;
+    margin: 3rem;
+    color: #2E382E;
+}
+.Contenedor{
+    padding: 1%;
+    margin: auto;
+    color: #2E382E;
+    height: auto;
+}
+.ContenedorTitulo{
+    background-color: #F9C784;
+    border: black 1px solid;
+    position:relative;
+    width: auto;
+}
+
+.BoxTitle
+{
+    height: 3rem;
+    width: 10rem;
+    margin: 0%;
+    border: none;
+    border-left: black 1px solid;
+    border-bottom: black 1px solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
+.DummyText{
+    margin-top: 4rem;
+    text-align: justify;
+}
+.Chicken{
+    background-color: #FF8C42;
+}
+.Beef{
+    background-color: #FF8C42;
+}
+.Sushi{
+    background-color: #FF8C42;
+}
+
+.Title2{
+    margin: auto;
+}
