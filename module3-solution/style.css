@@ -12,7 +12,7 @@ body{
     border: 0;
 }
 
-a,a:visited,link{
+a,a:visited,link, a:hover{
     color: white;
     text-decoration: none;
 } 
@@ -62,10 +62,9 @@ li:hover{
     color: #2E382E;
 }
 .Contenedor{
-    padding: 1%;
+    padding: 5%;
     margin: auto;
     color: #2E382E;
-    height: auto;
 }
 .ContenedorTitulo{
     background-color: #F9C784;
@@ -115,3 +114,12 @@ li:hover{
 .url-style:hover{
     color: white;
 }
+
+#header-nav{
+    padding-bottom: 0;
+}
+
+@media (max-width: 767px)
+{.container-style{
+    padding: 1rem;
+}}
