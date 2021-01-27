@@ -106,3 +106,12 @@ li:hover{
 .Title2{
     margin: auto;
 }
+
+.url-style, .url-style:visited{
+    color: #4E598C;
+    text-decoration: underline;
+}
+
+.url-style:hover{
+    color: white;
+}
